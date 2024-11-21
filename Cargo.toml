@@ -9,7 +9,7 @@ slint = "1.8.0"
 
 [[bin]]
 name = "rustb"
-path = "main.rs"
+path = "src/main.rs"
 
 [build-dependencies]
 slint-build = "1.8.0"
