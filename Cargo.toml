@@ -2,6 +2,7 @@
 name = "rustb"
 version = "0.1.0"
 edition = "2021"
+build = "build.rs"
 
 [dependencies]
 slint = "1.8.0"
@@ -9,3 +10,6 @@ slint = "1.8.0"
 [[bin]]
 name = "rustb"
 path = "main.rs"
+
+[build-dependencies]
+slint-build = "1.8.0"
