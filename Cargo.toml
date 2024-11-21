@@ -1,0 +1,11 @@
+[package]
+name = "rustb"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+slint = "1.8.0"
+
+[[bin]]
+name = "rustb"
+path = "main.rs"
